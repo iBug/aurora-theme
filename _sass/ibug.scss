@@ -90,13 +90,17 @@ a {
 .line-container {
 	margin-top: 0;
 	margin-bottom: 0;
-	@include small {
-		display: block;
-		width: 100%;
-	}
 
 	+ .line-container {
 		margin-left: 1rem;
+	}
+
+	@include small {
+		display: block;
+		width: 100%;
+		+ .line-container {
+			margin-left: 0;
+		}
 	}
 }
 
