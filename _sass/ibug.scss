@@ -94,6 +94,10 @@ a {
 		display: block;
 		width: 100%;
 	}
+
+	+ .line-container {
+		margin-left: 1rem;
+	}
 }
 
 .page-header {

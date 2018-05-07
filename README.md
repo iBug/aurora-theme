@@ -1,6 +1,6 @@
 # Aurora theme
 
-[![Build Status](https://travis-ci.org/iBug/aurora-theme.svg?branch=master)](https://travis-ci.org/iBug/project-theme)
+[![Build Status](https://travis-ci.org/iBug/aurora-theme.svg?branch=master)](https://travis-ci.org/iBug/aurora-theme)
 
 *Aurora is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://ibug.github.io/aurora-theme), or even [use it today](#usage).*
 

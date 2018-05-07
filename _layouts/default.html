@@ -13,13 +13,13 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.tagline | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-			<div class="line-container"><a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a></div>
+			<span class="line-container"><a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a></span>
       {% endif %}
       {% if site.show_downloads %}
-				<div class="line-container">
+				<span class="line-container">
 					<a href="{{ site.download.zip_url | default: site.github.zip_url }}" class="btn">Download .zip</a>
 					<a href="{{ site.download.tar_url | default: site.github.tar_url }}" class="btn">Download .tar.gz</a>
-				</div>
+				</span>
       {% endif %}
     </section>
 
