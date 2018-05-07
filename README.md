@@ -1,4 +1,4 @@
-# iBug's Project theme
+# Aurora theme
 
 [![Build Status](https://travis-ci.org/iBug/aurora-theme.svg?branch=master)](https://travis-ci.org/iBug/project-theme)
 
