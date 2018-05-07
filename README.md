@@ -4,7 +4,7 @@
 
 *Aurora is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://ibug.github.io/aurora-theme), or even [use it today](#usage).*
 
-![Thumbnail of Aurora](thumbnail.png)
+![Thumbnail of Aurora](thumbnail.jpg)
 
 ## Usage
 
@@ -71,7 +71,7 @@ Templates often rely on URLs supplied by GitHub such as links to your repository
 
 1. Look at [the template source](https://github.com/iBug/aurora-theme/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.download.zip_url }}`.
 
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.download.zip_url`, you'd add the following:
     ```yml
     download:
       zip_url: http://example.com/download.zip
