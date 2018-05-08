@@ -90,6 +90,19 @@ Templates often rely on URLs supplied by GitHub such as links to your repository
 
 For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
+## Optional features
+
+Aurora comes with some built-in features that you can choose to enable to make your site look better.
+
+To enable an optional feature, simply specify this in your site's `_config.yml`:
+
+```yml
+features:
+  some_feature: true
+```
+
+A list of optional features can be found at the [features page](https://ibug.github.io/aurora-theme/features). You can also preview all the features there.
+
 ## Roadmap
 
 See the [open issues](https://github.com/iBug/aurora-theme/issues) for a list of proposed features (and known issues).
