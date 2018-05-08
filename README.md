@@ -40,6 +40,13 @@ show_downloads: ["true" or "false" to indicate whether to provide a download URL
 google_analytics: [Your Google Analytics tracking ID]
 ```
 
+If these variables are set in individual pages' [front matter ](https://jekyllrb.com/docs/frontmatter/), Aurora will respect them, too.
+
+```yml
+title: [The title of the page]
+tagline: [The tagline of the page]
+```
+
 ### Stylesheet
 
 If you'd like to add your own custom styles:
