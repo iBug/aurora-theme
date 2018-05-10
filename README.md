@@ -75,6 +75,24 @@ If you'd like to add your own custom styles:
 
 *Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
+### Background image
+
+By default, the background image is hosted on my GitHub Pages.
+
+```
+https://ibug.github.io/image/aurora.jpg
+```
+
+If you want to replace it with another image, override the Sass variable that contains the image url in `/assets/css/style.scss`:
+
+```scss
+---
+---
+
+$bg-image-url: 'https://example.com/image.jpg'
+@import 'aurora';
+```
+
 ### Layouts
 
 If you'd like to change the theme's HTML layout:
