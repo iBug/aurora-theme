@@ -1,6 +1,6 @@
 # Aurora theme
 
-[![Build Status](https://travis-ci.org/iBug/aurora-theme.svg?branch=master)](https://travis-ci.org/iBug/aurora-theme)
+[![Build Status](https://travis-ci.org/iBug/aurora-theme.svg?branch=master)](https://travis-ci.org/iBug/aurora-theme) [![Gem Version](https://badge.fury.io/rb/aurora-theme.svg)](https://badge.fury.io/rb/aurora-theme)
 
 *Aurora is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://ibug.github.io/aurora-theme), or even [use it today](#usage).*
 
@@ -10,7 +10,19 @@
 
 To use the Aurora theme:
 
-1. Add the following to your site's `_config.yml`:
+1. Install the gem:
+
+    ```
+    gem install aurora-theme
+    ```
+
+    Add the following to your site's `_config.yml`:
+
+    ```yml
+    theme: aurora-theme
+    ```
+
+    If you're building your site with GitHub Pages, replace `theme` with this:
 
     ```yml
     remote_theme: iBug/aurora-theme
@@ -19,7 +31,7 @@ To use the Aurora theme:
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
     ```ruby
-    gem "github-pages", group: :jekyll_plugins
+    gem "aurora-theme", group: :jekyll_plugins
     ```
 
 ## Customizing
