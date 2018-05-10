@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -z`.split("\0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
-  s.post_install_message = 'Thank you for installing the Aurora theme by iBug'
 
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 2.1'
