@@ -108,7 +108,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: url('https://ibug.github.io/image/pp-bg.jpg'), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
