@@ -285,7 +285,7 @@ a {
     padding: 0 1rem;
     margin-left: 0;
     color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    border-left: 0.3rem solid $blockquote-border-color;
 
     > :first-child {
       margin-top: 0;
