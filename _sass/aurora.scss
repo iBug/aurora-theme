@@ -32,6 +32,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+
+  background-color: $header-bg-color;
+  background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 a {
@@ -75,13 +82,10 @@ a {
   }
 
   @include small {
-    //display: block;
-    //width: 100%;
     padding: 0.75rem;
     font-size: 0.9rem;
 
     + .btn {
-      //margin-top: 1rem;
       margin-left: 0;
     }
   }
@@ -107,12 +111,7 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: transparent;
 
   @include large {
     padding: 5rem 6rem;
@@ -164,6 +163,7 @@ a {
 
 .main-content {
   word-wrap: break-word;
+	background-color: rgba(255, 255, 255, 0.95);
 
   :first-child {
     margin-top: 0;
@@ -171,9 +171,10 @@ a {
 
   @include large {
     max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
+    padding: 3rem 6rem;
+    margin: 0 auto 3rem;
     font-size: 1.1rem;
+		border-radius: 2rem;
   }
 
   @include medium {
