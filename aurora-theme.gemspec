@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.authors       = ['iBug']
   s.homepage      = 'https://github.com/iBug/aurora-theme'
   s.summary       = 'A Jekyll theme for GitHub Pages'
-  s.description   = 'Aurora is a clean, responsive Jekyll theme for GitHub Pages'
+  s.description   = 'Aurora is a clean, responsive Jekyll theme for GitHub Pages with immersive design'
 
   s.files         = `git ls-files -z`.split("\0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
