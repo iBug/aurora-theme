@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'aurora-theme'
-  s.version       = "1.0.#{Time.now.strftime '%-y.%-j'}#{ENV['PATCH'] ? ".#{ENV['PATCH']}" : '' }"
+  s.version       = "1.0.#{Time.now.strftime '%-y.%-j'}#{ENV['PATCH']?".#{ENV['PATCH']}":''}"
   s.license       = 'MIT'
   s.authors       = ['iBug']
   s.homepage      = 'https://github.com/iBug/aurora-theme'
