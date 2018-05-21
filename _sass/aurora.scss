@@ -33,12 +33,31 @@ body {
   line-height: 1.5;
   color: $body-text-color;
 
-  background-color: $header-bg-color;
-  background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	@include large {
+		background-color: $header-bg-color;
+		background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	@include medium {
+		background-color: $header-bg-color;
+		background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	@include small {
+		background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
 }
 
 a {
@@ -123,6 +142,13 @@ a {
 
   @include small {
     padding: 2rem 1rem;
+
+		background-color: $header-bg-color;
+		background-image: url($bg-image-url), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
   }
 }
 
@@ -185,6 +211,7 @@ a {
   @include small {
     padding: 2rem 1rem;
     font-size: 1rem;
+		background-color: rgba(255, 255, 255, $body-background-opacity-secondary);
   }
 
   img {
