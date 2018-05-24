@@ -131,6 +131,14 @@ features:
   some_feature: true
 ```
 
+Some features are enabled on a per-page basis, so you will need to specify them in the [front matter](https://jekyllrb.com/docs/frontmatter):
+
+```yml
+---
+some_feature: true
+---
+```
+
 A list of optional features can be found at the [features page](https://ibug.github.io/aurora-theme/features). You can also preview all the features there.
 
 ## Roadmap
