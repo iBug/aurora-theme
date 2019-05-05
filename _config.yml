@@ -3,5 +3,8 @@ description: Aurora is a clean, responsive theme for GitHub Pages with immersive
 show_downloads: true
 google_analytics: UA-115907213-1
 
+nav:
+  title: Home
+
 features:
   love: true

@@ -20,6 +20,16 @@
 		{% endif %}
 	</head>
 	<body>
+		{% if site.nav %}
+		<nav>
+			<div class="nav-left">
+				<a href="{{ '/' | relative_url}}" class="nav-item home">{{ site.nav.home | default: site.title | default: site.github.repository_name }}</a>
+			</div>
+			<div class="nav-right">
+			</div>
+		</nav>
+		{% endif %}
+
 		<section class="page-header">
 			<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 			<h2 class="project-tagline">{{ page.tagline | default: site.description | default: site.github.project_tagline | newline_to_br }}</h2>
